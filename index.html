@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>URL Shortener</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>SHEARS</h2>
+        <label for="url-before">Enter URL</label>
+        <input type="text" class="url" id="url-before" placeholder=" example.com">
+
+        <div class="btn-container">
+            <button onclick="" class="btn-1" id="refresh-btn">Refresh</button>
+            <button onclick="" class="btn-1" id="shorten-btn">Shorten</button>
+        </div>
+        <label for="result">Shortened URL:</label>
+
+        <div id="result">
+            <input type="text" class="url" readonly>
+            <button onclick="copyToClipboard('result')">
+                <i class="fa-regular fa-copy"></i>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

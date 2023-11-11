@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300&family=Roboto+Slab&display=swap');
+
+/* Roboto+Slab */ 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#A6F6FF, #6499E9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+}
+label, button{
+    border: none;
+}
+
+input{
+    border: 1px solid grey;
+    outline: none;
+    width: auto;
+    max-width: 340px;
+}
+
+.url{
+    border-radius: 5px;
+    height: 30px;
+    margin: 5%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    background: #fff;
+    width: fit-content;
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label, button{
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
